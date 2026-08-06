@@ -1,4 +1,4 @@
-Sprint M2
+Sprint M2 — Brand Foundation
 
 Status
 
@@ -7,6 +7,11 @@ Status
 Deliverables
 
 ✓ Brand Foundation v1.0
+✓ Brand Philosophy v1.0
+✓ Brand Language Guide v1.0
+
+Major Outcomes
+
 ✓ Vision
 ✓ Mission
 ✓ Target User

@@ -36,13 +36,13 @@ The project prioritizes:
 
 # Project Vision
 
-Help people think better by making complex ideas understandable.
+Empower people to decide confidently.
 
 ---
 
 # Project Mission
 
-Build a product that helps users understand information clearly, evaluate evidence objectively, and make decisions with confidence.
+Help people understand before they decide.
 
 ---
 

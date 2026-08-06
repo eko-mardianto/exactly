@@ -2,7 +2,7 @@
 
 Exactly officially begins.
 
-Today we finished only one thing:
+Today we completed one milestone:
 
 A stable development environment.
 
@@ -14,18 +14,19 @@ No UI.
 
 Only a strong foundation.
 
-This decision reflects the philosophy of Exactly:
+### Why it matters
 
-Understand first.
-Build second.
+This milestone establishes a reliable development environment before any product or feature development begins. It reflects Exactly's philosophy of building on understanding rather than rushing into implementation.
+
+### Impact
+
+All future development will be built upon this stable technical foundation.
 
 ## 2026-08-05
 
 Sprint M2 officially completed.
 
 Brand Foundation v1.0 was established, defining the long-term identity of Exactly.
-
-During this sprint, the project's identity was formally agreed upon through discussions and strategic decisions rather than feature development.
 
 Major milestones include:
 
@@ -41,4 +42,10 @@ Major milestones include:
 
 A deliberate decision was also made to exclude Brand Essence from Brand Foundation v1.0, as the existing foundation already provides a complete and cohesive brand identity.
 
-With Brand Foundation locked, future product and engineering decisions will use this document as the primary strategic reference.
+### Why it matters
+
+Brand Foundation v1.0 establishes the strategic identity of Exactly. It defines the principles that will guide future decisions across product, design, engineering, and communication.
+
+### Impact
+
+Future product and engineering decisions will use Brand Foundation as the primary strategic reference.

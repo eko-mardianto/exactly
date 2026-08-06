@@ -1,12 +1,7 @@
-# Changelog
-
-All notable changes to Exactly will be documented in this file.
-
----
-
 ## Sprint M1
 
 Date
+
 2026-08-05
 
 ### Added
@@ -18,30 +13,34 @@ Date
 - Initialized a Next.js project using the App Router
 - Configured TypeScript
 - Configured Tailwind CSS
-- Created the initial documentation framework
-- Created the project's first development environment
+- Created the first local development environment
 
 ### Changed
 
-- Repository structure revised after evaluating the need for documentation-first development.
-- Removed unnecessary folders before project initialization.
-- Standardized the project documentation workflow.
+- Standardized the documentation workflow.
+- Revised the repository structure for a documentation-first approach.
 
 ### Removed
 
-- Initial placeholder folders that conflicted with the Next.js application structure.
+- Placeholder folders that conflicted with the Next.js application structure.
 
 ### Fixed
 
-- GitHub username migration issues.
+- GitHub repository linkage.
 - Git remote configuration.
-- Incorrect repository linkage.
-- PowerShell execution policy preventing npm/npx execution.
-- Local development environment configuration.
+- PowerShell execution policy preventing npm and npx execution.
+
+### Notes
+
+Sprint M1 focused entirely on establishing a stable development environment before product development began.
 
 ## Sprint M2
 
-## Added
+Date
+
+2026-08-05
+
+### Added
 
 - Brand Foundation v1.0
 - Vision
@@ -54,11 +53,12 @@ Date
 - Product Promise
 - Brand Manifesto
 
-## Changed
+### Changed
 
-- ROADMAP updated.
-- Documentation structure refined.
+- Brand identity officially defined.
+- Documentation aligned with the finalized brand strategy.
 
-## Notes
+### Notes
 
-Brand Essence intentionally postponed until a future version if required.
+- Brand Essence was intentionally excluded from Brand Foundation v1.0.
+- Product Positioning was separated from Brand Foundation into its own document.
