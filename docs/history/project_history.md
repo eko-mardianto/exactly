@@ -25,6 +25,8 @@ Sprint M2 officially completed.
 
 Brand Foundation v1.0 was established, defining the long-term identity of Exactly.
 
+During this sprint, the project's identity was formally agreed upon through discussions and strategic decisions rather than feature development.
+
 Major milestones include:
 
 - Vision
@@ -37,4 +39,6 @@ Major milestones include:
 - Product Promise
 - Brand Manifesto
 
-Brand Essence was intentionally excluded from v1.0 because the existing foundation already provides a complete strategic identity.
+A deliberate decision was also made to exclude Brand Essence from Brand Foundation v1.0, as the existing foundation already provides a complete and cohesive brand identity.
+
+With Brand Foundation locked, future product and engineering decisions will use this document as the primary strategic reference.
