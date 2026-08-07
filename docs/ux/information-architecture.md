@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Information Architecture defines how product information is organized before navigation, interfaces, or implementation are designed.
+Information Architecture (IA) defines how product information is organized before navigation, interfaces, or implementation are designed.
 
 This document establishes the logical structure of information that supports understanding, reasoning, and decision-making throughout Exactly.
 
