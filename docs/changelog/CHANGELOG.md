@@ -132,3 +132,28 @@ Date
 Sprint M4 is completed.
 
 The UX Foundation is now locked and serves as the conceptual foundation for subsequent product design and development.
+
+## Sprint M5
+
+Date
+
+2026-08-09
+
+### Added
+
+- Architecture Principles v1.0
+- Repository Structure v1.0
+- Phase 1 Completion Review
+
+### Changed
+
+- Completed the remaining Phase 1 foundation requirements.
+- Finalized the architectural principles that will guide future technical decisions.
+- Finalized the repository-level structure of Exactly.
+- Officially completed Phase 1 — Foundation.
+
+### Notes
+
+Sprint M5 is completed.
+
+Phase 1 — Foundation is now officially completed, and Exactly is ready to proceed to Phase 3 — System Architecture.
