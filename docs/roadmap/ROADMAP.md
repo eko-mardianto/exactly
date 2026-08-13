@@ -56,9 +56,9 @@ Status
 
 Current Focus
 
-- Clearly define what Exactly is, who it serves, and which problems it solves.
-
-* Design the technical architecture before implementing major features.
+- Finalize the remaining Architecture Decision Records.
+- Validate the architectural foundation before entering MVP Development.
+- Prepare the transition from system architecture to implementation.
 
 ---
 
