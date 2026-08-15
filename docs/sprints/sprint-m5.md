@@ -103,4 +103,4 @@ Sprint M5 is officially completed.
 
 Phase 1 — Foundation is officially completed.
 
-Exactly is now ready to proceed to Phase 3 — System Architecture.
+Exactly is now ready to proceed to the next architectural stage: Phase 3 — System Architecture.

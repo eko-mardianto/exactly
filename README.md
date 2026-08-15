@@ -1,36 +1,248 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Exactly
 
-## Getting Started
+Exactly is an AI platform that helps people understand complex information before making decisions.
 
-First, run the development server:
+Exactly is designed to strengthen human reasoning rather than replace it.
+
+> **Now it makes sense.**
+
+---
+
+# Project Status
+
+**Status**
+
+🟢 Active Development
+
+**Current Phase**
+
+Phase 4 — MVP Development
+
+Exactly has completed its Foundation, Product Foundation, and System Architecture phases and is now moving into MVP implementation.
+
+---
+
+# Project Vision
+
+> **Empower people to decide confidently.**
+
+# Project Mission
+
+> **Help people understand before they decide.**
+
+Exactly prioritizes:
+
+- Understanding before deciding
+- Evidence before assumptions
+- Simplicity before complexity
+- Learning before automation
+
+---
+
+# Getting Started
+
+## Requirements
+
+Exactly currently uses:
+
+- Node.js
+- npm
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Start Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The development server automatically updates the application as changes are made.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+Starts the development server.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Production Build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+```
+
+Builds the application for production.
+
+## Production Server
+
+```bash
+npm run start
+```
+
+Starts the production build.
+
+## Lint
+
+```bash
+npm run lint
+```
+
+Runs ESLint against the project.
+
+---
+
+# Project Structure
+
+The repository separates application code, documentation, and project-level configuration.
+
+The current application structure is:
+
+```text
+app/
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+```
+
+Project documentation is maintained under:
+
+```text
+docs/
+```
+
+Architecture documentation is maintained under:
+
+```text
+docs/architecture/
+```
+
+The application structure will evolve as MVP implementation progresses.
+
+---
+
+# Architecture
+
+Exactly follows architectural principles centered around:
+
+- Clear responsibility boundaries
+- Separation of concerns
+- Modularity
+- Simplicity
+- Maintainability
+- Scalability
+- Security
+- Testability
+- Documentation
+
+The architecture is intentionally defined before major implementation decisions are introduced.
+
+Key architecture areas include:
+
+- Architecture Principles
+- Folder Structure
+- Component Strategy
+- Data Flow
+- State Management
+- API Architecture
+- Architecture Decision Records
+
+Architecture decisions that materially affect the system are documented separately through Architecture Decision Records.
+
+---
+
+# Development Principles
+
+Exactly follows these development principles:
+
+1. Documentation before implementation.
+2. Understand before building.
+3. Solve real problems before adding features.
+4. Prefer clarity over cleverness.
+5. Build for long-term maintainability.
+6. Small improvements accumulate into great products.
+7. Every important decision deserves documentation.
+
+---
+
+# Documentation
+
+The repository contains documentation covering the product, architecture, development process, and project history.
+
+Key documentation areas include:
+
+```text
+docs/
+├── architecture/
+├── branding/
+├── decisions/
+├── history/
+└── sprints/
+```
+
+`ROADMAP.md` defines the long-term direction of the project.
+
+Sprint documents define the implementation work.
+
+Architecture documents define system-level responsibilities and boundaries.
+
+---
+
+# Deployment
+
+Exactly is planned for deployment on Vercel.
+
+Deployment configuration and requirements will evolve as the MVP implementation progresses.
+
+---
+
+# Technology
+
+The current application foundation includes:
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- ESLint
+
+Technology choices should serve the architecture and product requirements rather than determine them.
+
+---
+
+# Project Goal
+
+Exactly aims to help users reach better understanding before making decisions.
+
+The product is successful when users can say:
+
+> **"Now it makes sense."**
+
+—not because Exactly simply gave them an answer,
+
+but because it helped them understand.
+
+---
+
+# License
+
+See `LICENSE` for the project's license information.
