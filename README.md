@@ -65,10 +65,7 @@ npm run dev
 ```
 
 Open:
-
-```text
 http://localhost:3000
-```
 
 The development server automatically updates the application as changes are made.
 
