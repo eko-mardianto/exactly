@@ -1,0 +1,558 @@
+# Screen Structure v1
+
+## Purpose
+
+Screen Structure v1 defines the structural organization of the Exactly MVP interface based on the Core UX MVP.
+
+It translates the Question-first experience into a continuous user experience without defining visual design, component styling, technical implementation, or pixel-level layouts.
+
+The structure is designed to preserve context, support exploration, and help users move between Explore and Understand without losing the understanding they have already developed.
+
+---
+
+## Screen Structure Principles
+
+Screen Structure v1 follows the following principles:
+
+### Continuous Question Experience
+
+Question, Explore, and Understand belong to one continuous experience centered on the user's original question.
+
+They should not be treated as unrelated destinations.
+
+---
+
+### Persistent Question Context
+
+The user's original question remains visible throughout Explore and Understand.
+
+The question acts as the primary contextual anchor for the entire experience.
+
+Users should always be able to understand what they are exploring and understanding in relation to their original question.
+
+---
+
+### Distinct Experience Stages
+
+Explore and Understand are distinct stages with different purposes.
+
+Explore helps users discover and examine relevant information.
+
+Understand helps users connect relevant information and understand how those pieces relate to their question.
+
+The stages may change the primary content and emphasis without breaking the continuity of the overall experience.
+
+---
+
+### User-Controlled Progression
+
+Users determine when they are ready to move from Explore to Understand.
+
+Exactly should not automatically determine that the user has explored enough.
+
+---
+
+### Reversible Exploration
+
+Users should be able to move between Explore and Understand without losing accumulated context or understanding.
+
+Moving back to Explore should not reset the experience.
+
+Moving forward to Understand should preserve the relevant understanding already developed.
+
+---
+
+### Non-Destructive Navigation
+
+Returning to a previous stage should not unnecessarily erase:
+
+- The original question.
+- Relevant information already explored.
+- The user's position or context.
+- Understanding already developed.
+- Supporting material already accessed.
+
+Exploration should remain reversible and non-destructive.
+
+---
+
+### Progressive Disclosure
+
+Information should be presented according to its importance and context.
+
+Primary information should remain visible.
+
+Supporting evidence and deeper detail may be opened or closed by the user when needed.
+
+---
+
+## Core Structure
+
+The Exactly MVP uses one continuous Question Experience.
+
+The conceptual structure is:
+
+Question
+
+↓
+
+Clarification when necessary
+
+↓
+
+Explore
+
+↓
+
+Understand
+
+Explore ↔ Understand
+
+The bidirectional relationship between Explore and Understand allows users to revisit information and continue developing understanding without restarting the experience.
+
+---
+
+## Question Context
+
+The original Question is the persistent context of the Question Experience.
+
+It remains available throughout the experience rather than disappearing after the user submits it.
+
+The Question provides the reference point for:
+
+- Exploration.
+- Information relevance.
+- Evidence inspection.
+- Understanding.
+- Relationships between information.
+
+The structure is:
+
+Question
+
+↓
+
+Explore
+
+↓
+
+Understand
+
+with the Question remaining persistent across both stages.
+
+---
+
+## Clarification State
+
+Clarification is a conditional state within the Question Experience.
+
+It is not a primary destination or independent product area.
+
+The flow is:
+
+Question
+
+↓
+
+Clarity Check
+
+↓
+
+Clarification when necessary
+
+↓
+
+Explore
+
+When the question is already sufficiently clear, the user should proceed directly to Explore.
+
+Clarification exists to prevent Exactly from making unsupported assumptions about user intent.
+
+It should not introduce unnecessary structure or require users to provide information that is not needed for meaningful exploration.
+
+---
+
+## Explore Stage
+
+### Purpose
+
+Explore helps users discover and examine information relevant to their question.
+
+The primary purpose of Explore is:
+
+> What is relevant to my question?
+
+Explore should help users establish sufficient context before moving toward deeper understanding.
+
+---
+
+### Primary Information
+
+The primary content of Explore consists of:
+
+- Context.
+- Relevant information.
+- Meaningful information that helps the user investigate the question.
+
+This information should be visible without requiring users to open supporting material first.
+
+---
+
+### Supporting Evidence
+
+Evidence supports information presented during Explore.
+
+Evidence should be accessible when users want to verify or investigate supporting material.
+
+The conceptual relationship is:
+
+Information
+
+↓
+
+Supporting Evidence
+
+Evidence may be opened or closed according to the user's needs.
+
+The primary Explore experience should not be overwhelmed by presenting all supporting evidence simultaneously.
+
+---
+
+### Explore Progression
+
+Users determine when they are ready to move toward Understand.
+
+The transition is:
+
+Explore
+
+↓
+
+User explores
+
+↓
+
+User chooses to continue
+
+↓
+
+Understand
+
+Exactly should not impose a predetermined exploration threshold.
+
+---
+
+## Understand Stage
+
+### Purpose
+
+Understand helps users connect relevant information and understand how those pieces relate to their question.
+
+The primary purpose of Understand is:
+
+> How do the pieces of information relate to my question?
+
+---
+
+### Primary Information
+
+The primary content of Understand consists of:
+
+- Connections.
+- Relationships.
+- Reasoning.
+- Explanations that help establish meaning between relevant information.
+
+The information should remain connected to the original Question.
+
+---
+
+### Reasoning
+
+Reasoning should help users understand why relevant information is connected.
+
+Primary reasoning should remain understandable rather than being hidden behind an unexplained result.
+
+Additional reasoning detail may be progressively disclosed when appropriate.
+
+---
+
+### Supporting Evidence
+
+Evidence remains accessible during Understand.
+
+Users may return to supporting material when they want to examine the basis of an explanation or relationship.
+
+Evidence should remain connected to the information or reasoning it supports.
+
+---
+
+## Explore and Understand Relationship
+
+Explore and Understand are separate experience stages within the same continuous Question Experience.
+
+They should not be treated as independent product destinations.
+
+Their relationship is:
+
+Explore
+
+↓
+
+Discover relevant information
+
+↓
+
+User chooses to continue
+
+↓
+
+Understand
+
+↓
+
+Connect and interpret relevant information
+
+↓
+
+User may return to Explore
+
+↓
+
+Continue Understanding
+
+The relationship is intentionally bidirectional.
+
+---
+
+## Returning from Understand to Explore
+
+Users can return from Understand to Explore without losing the context they have already established.
+
+Returning to Explore may occur when users:
+
+- Want to verify information.
+- Need to revisit context.
+- Want to inspect supporting evidence.
+- Discover that additional exploration is necessary.
+- Want to reconsider how information relates to the question.
+
+Returning should preserve the broader Question Experience.
+
+The user should not be forced to restart exploration from the beginning.
+
+---
+
+## Context Preservation
+
+When users move between Explore and Understand, Exactly should preserve relevant context.
+
+The experience should preserve:
+
+### Original Question
+
+The question remains the primary contextual anchor.
+
+### Exploration Context
+
+Previously explored relevant information should remain available.
+
+### User Position
+
+The experience should preserve the user's position or relevant location within the explored information whenever reasonably possible.
+
+### Understanding Context
+
+Understanding already developed should not be discarded merely because the user returns to Explore.
+
+### Supporting Material
+
+Previously accessed evidence should remain connected to the information it supports.
+
+---
+
+## Persistent and Dynamic Structure
+
+The Question Experience contains both persistent and dynamic content.
+
+### Persistent
+
+The following remain available throughout the experience:
+
+- Original Question.
+- Overall Question context.
+- Relevant accumulated context.
+- Understanding developed during the experience.
+
+### Dynamic
+
+The following may change according to the current stage:
+
+- Primary content.
+- Current stage emphasis.
+- Information being explored.
+- Relationships being examined.
+- Supporting explanations.
+- Open or closed supporting material.
+
+---
+
+## Stage Comparison
+
+| Aspect                   | Explore                          | Understand                               |
+| ------------------------ | -------------------------------- | ---------------------------------------- |
+| Primary purpose          | Discover relevant information    | Connect and interpret information        |
+| Primary question         | What is relevant?                | How do these pieces relate?              |
+| Main content             | Context and relevant information | Connections, relationships, reasoning    |
+| Evidence                 | Available on demand              | Available on demand                      |
+| User control             | User decides what to explore     | User decides what to investigate further |
+| Relationship to Question | Identifies relevant information  | Explains relationships to the Question   |
+| Return path              | Can move to Understand           | Can return to Explore                    |
+
+---
+
+## Information Disclosure
+
+Information should follow progressive disclosure.
+
+### Visible by default
+
+Primary information necessary to understand the current stage should remain visible.
+
+This includes:
+
+- Original Question.
+- Current stage.
+- Primary context.
+- Relevant information.
+- Core relationships or reasoning when in Understand.
+
+### Available on demand
+
+Supporting information may be opened when needed.
+
+This includes:
+
+- Supporting evidence.
+- Additional source details.
+- Deeper explanations.
+- Additional reasoning detail.
+- Related supporting information.
+
+The goal is to reduce unnecessary cognitive load without hiding information required for meaningful understanding or verification.
+
+---
+
+## Stage Awareness
+
+Users should be able to understand which stage they are currently experiencing.
+
+The current stage should communicate whether the user is primarily:
+
+- Exploring relevant information.
+- Developing understanding.
+
+Stage awareness should clarify the purpose of the current experience without turning the product into a rigid step-by-step wizard.
+
+---
+
+## Navigation Model Within the Question Experience
+
+The internal relationship is:
+
+Question
+
+↓
+
+Explore
+
+↓
+
+Understand
+
+with:
+
+Explore ↔ Understand
+
+The Question remains persistent across both stages.
+
+Clarification may appear conditionally between Question and Explore.
+
+The Question Experience therefore behaves as a continuous workspace rather than a sequence of unrelated screens.
+
+---
+
+## Boundaries
+
+Screen Structure v1 does not define:
+
+- Visual design.
+- Typography.
+- Color.
+- Spacing.
+- Component styling.
+- Exact responsive layouts.
+- Animation.
+- Motion design.
+- Pixel-level positioning.
+- Technical routing.
+- Browser history implementation.
+- State management implementation.
+- Database structures.
+- API architecture.
+- AI model implementation.
+
+Browser history and back behavior are implementation concerns that should be addressed later.
+
+They should not determine the conceptual UX structure of the Question Experience.
+
+---
+
+## Relationship to Core UX MVP
+
+Screen Structure v1 directly implements the Core UX MVP:
+
+Question
+
+↓
+
+Clarification when necessary
+
+↓
+
+Explore
+
+↓
+
+User-controlled progression
+
+↓
+
+Understand
+
+The structure extends this flow by defining that:
+
+- Question remains persistent.
+- Explore and Understand exist within one continuous experience.
+- Users can move between Explore and Understand.
+- Returning is reversible and non-destructive.
+- Context and accumulated understanding should be preserved.
+- Supporting evidence remains available on demand.
+
+---
+
+## Screen Structure Statement
+
+Exactly MVP uses a continuous Question Experience centered on the user's original question.
+
+The Question remains visible as persistent context while users explore relevant information and develop understanding.
+
+Explore and Understand are distinct experience stages with different purposes, but they remain connected within the same Question Experience.
+
+Users control progression between the stages and may return to Explore when they need additional context, evidence, or information.
+
+The experience should preserve accumulated context and understanding rather than forcing users to restart.
+
+Information should be progressively disclosed so that primary information remains clear while supporting evidence and deeper detail remain available when users need them.
+
+This structure ensures that Exactly supports exploration and understanding as a continuous, reversible process rather than a predetermined one-way workflow.
